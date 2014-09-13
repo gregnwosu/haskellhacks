@@ -1,0 +1,4 @@
+/**/dist/**
+/**/*flymake.hs
+/**/*.hs~
+/**/.cabal-sandbox/**
