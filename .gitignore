@@ -7,3 +7,6 @@
 /**/*.hs~
 /**/.cabal-sandbox/**
 
+/OracleConnect/OracleConnect.cabal~
+/OracleConnect/#Main.hs#
+/OracleConnect/#_assh_bosiris_b_ahome_anwosug_adev_ahaskell_aOracleConnect_aMain.hs#
