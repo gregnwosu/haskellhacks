@@ -2,3 +2,8 @@
 /lenses/dist
 /lenses/dist/
 /lenses/Main_flymake.hs
+/**/dist/**
+/**/*flymake.hs
+/**/*.hs~
+/**/.cabal-sandbox/**
+
