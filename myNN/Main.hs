@@ -42,7 +42,7 @@ data Layer = Layer {
   lAS :: ActivationSpec
 }
 
--- the matrix lW has type Matrix Double . This is a matrix whose element values are double precision floats. This type and the associated operations are provided by the hmatrix  package . The activation specification lAS uses the type ActivationSpec definied earlier. Again we use the support for first-class functions to crate a value of type Layer we parss a record containing function values into the layer constructor.
+-- the matrix lW has type Matrix Double . This is a matrix whose element valuens are double precision floats. This type and the associated operations are provided by the hmatrix  package . The activation specification lAS uses the type ActivationSpec definied earlier. Again we use the support for first-class functions to crate a value of type Layer we parss a record containing function values into the layer constructor.
 
 -- making the network
 -- the network consists of layers and a learning rate

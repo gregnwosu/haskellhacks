@@ -28,8 +28,6 @@ data Term f = In (f (Term f))
 out :: Term f -> f (Term f)
 out (In t) = t
 
-
-
 fib :: Int -> Int
 fib 0 = 1
 fib 1 = 1

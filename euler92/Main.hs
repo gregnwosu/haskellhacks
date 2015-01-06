@@ -1,9 +1,10 @@
 
-
 import           Control.Monad.State
 import           Data.Char
 import           Data.Function
 import qualified Data.IntMap         as M
+import           Data.List
+import           Data.Ma
 
 digits :: Int -> [Int]
 digits =  map (digitToInt) . show
@@ -40,6 +41,13 @@ howmany :: Int
 howmany =  length $ filter (==89) $ evalState (mapM (terminate) [1..10000000]) M.empty
 
 
-
+sierpinsky :: Integral a => a -> String
+sierpinsky 0 = "L"
+sierpinsky n =  concat $ intercalate ["\n"] ([next] : (transpose [ss,spc,ss]))
+                where next = sierpinsky (n-1)
+                      ss = lines next
+                      spc = f ss
+                      f  = fmap ((`replicate` ' ')  . ((2^n) -) . length)
 main :: IO ()
-main = putStrLn $ show (Data.Function.fix terminate')
+main = putStrLn $ sierpinsky 4
+  --main = putStrLn $ show (Data.Function.fix terminate')
