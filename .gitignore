@@ -1,3 +1,7 @@
+/lenses/.cabal-sandbox
+/lenses/dist
+/lenses/dist/
+/lenses/Main_flymake.hs
 /**/dist/**
 /**/*flymake.hs
 /**/*.hs~
@@ -10,3 +14,8 @@
 /myneuralnet/.idea/scopes/scope_settings.xml
 /myneuralnet/.idea/vcs.xml
 /myneuralnet/.idea/workspace.xml
+
+
+/OracleConnect/OracleConnect.cabal~
+/OracleConnect/#Main.hs#
+/OracleConnect/#_assh_bosiris_b_ahome_anwosug_adev_ahaskell_aOracleConnect_aMain.hs#

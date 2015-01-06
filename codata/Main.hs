@@ -2,6 +2,11 @@
 
 module CoData where
 import           Control.Arrow
+-- import System.Environment
+import           Control.DeepSeq
+import           Control.Parallel.Strategies
+-- import Data.Maybe
+
 
 data Lit  =
   StrLit String
@@ -24,6 +29,11 @@ out :: Term f -> f (Term f)
 out (In t) = t
 
 
+
+fib :: Int -> Int
+fib 0 = 1
+fib 1 = 1
+fib n = fib (n-1) + fib (n-2)
 
 topDown, bottomUp :: Functor a => (Term a -> Term a) -> Term a -> Term a
 bottomUp fn =
