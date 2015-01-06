@@ -6,7 +6,17 @@
 /**/*flymake.hs
 /**/*.hs~
 /**/.cabal-sandbox/**
+/myneuralnet/.idea/.name
+/myneuralnet/.idea/compiler.xml
+/myneuralnet/.idea/encodings.xml
+/myneuralnet/.idea/misc.xml
+/myneuralnet/.idea/modules.xml
+/myneuralnet/.idea/scopes/scope_settings.xml
+/myneuralnet/.idea/vcs.xml
+/myneuralnet/.idea/workspace.xml
+
 
 /OracleConnect/OracleConnect.cabal~
 /OracleConnect/#Main.hs#
 /OracleConnect/#_assh_bosiris_b_ahome_anwosug_adev_ahaskell_aOracleConnect_aMain.hs#
+/euler92/cabal.sandbox.config

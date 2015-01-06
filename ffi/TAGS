@@ -1,0 +1,55 @@
+
+./Setup.hs,15
+main main1,2
+
+./Regex.hs,470
+data PCREPCRE10,11
+newtype PCREOption PCREOption11,12
+newtype PCREOption = PCREOption PCREOption11,12
+newtype PCREOption = PCREOption {unPCREOption:unPCREOption11,12
+caseless caseless28,29
+caseless caseless29,30
+dollar_endonly dollar_endonly30,31
+dollar_endonly dollar_endonly31,32
+dotall dotall32,33
+dotall dotall33,34
+combineOptions combineOptions37,38
+combineOptions combineOptions38,39
+data Regex Regex40,41
+data Regex = Regex Regex40,41
+
+./dist/build/autogen/Paths_ffi.hs,956
+module Paths_ffi Paths_ffi0,1
+catchIO catchIO11,12
+catchIO catchIO12,13
+version version15,16
+version version16,17
+bindir, libdir, datadir, libexecdir, sysconfdir sysconfdir17,18
+bindir, libdir, datadir, libexecdir,libexecdir17,18
+bindir, libdir, datadir,datadir17,18
+bindir, libdir,libdir17,18
+bindir,bindir17,18
+bindir bindir19,20
+libdir libdir20,21
+datadir datadir21,22
+libexecdir libexecdir22,23
+sysconfdir sysconfdir23,24
+getBinDir, getLibDir, getDataDir, getLibexecDir, getSysconfDir getSysconfDir25,26
+getBinDir, getLibDir, getDataDir, getLibexecDir,getLibexecDir25,26
+getBinDir, getLibDir, getDataDir,getDataDir25,26
+getBinDir, getLibDir,getLibDir25,26
+getBinDir,getBinDir25,26
+getBinDir getBinDir26,27
+getLibDir getLibDir27,28
+getDataDir getDataDir28,29
+getLibexecDir getLibexecDir29,30
+getSysconfDir getSysconfDir30,31
+getDataFileName getDataFileName32,33
+getDataFileName getDataFileName33,34
+
+./Main.hs,114
+module FfiExample FfiExample2,3
+fastsin fastsin10,11
+fastsin fastsin11,12
+main main13,14
+main main14,15
