@@ -59,7 +59,7 @@ applyExpr f (Binary l op r) = Binary (f l) op (f r)
 
 
 
-
+main :: String -> 
 
 
 main = putStrLn "hello world"

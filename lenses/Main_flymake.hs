@@ -24,7 +24,7 @@ betterAddressLens :: Lens Person Address
 betterAddressLens fn person = fmap (\newAddy -> person {address = newAddy}) $ fn (address person)
 
 betterCityLens :: Lens Address String
-betterCityLens fn addr = fmap (\newCity -> addr {city = newCity}) $ fn (city person)
+betterCityLens fn addr = fmap (\newCity -> addr {city = newCity}) $ fn (city addr)
 
 betterNameLens :: Lens Person String
 betterNameLens fn person = fmap (\newName -> person {name = newName}) $ fn (name person)
@@ -61,8 +61,6 @@ updateCity = (update' addressLens) . (update' cityLens)
 
 
 greg = Person { name= "greg", age=38, address = Address {house= "3a", street= "Milo Road", city= "London"}}
-
-
 
 
 main::IO ()
