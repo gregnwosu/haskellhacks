@@ -1,15 +1,17 @@
 {-# LANGUAGE CPP, ForeignFunctionInterface, EmptyDataDecls #-}
+
 module Regex where
 
 import Foreign
 import Foreign.C.Types
+foreign import  ccall unsafe "pcre.h pcre_compile"
+
+newtype PCREOption = PCREOption {
+  unPCREOption :: CInt} deriving (Eq, Show)
 
 #include <pcre.h>
-data PCRE
-newtype PCREOption = PCREOption {unPCREOption:: CInt}
-                     deriving (Eq, Show)
 
-foreign import  ccall unsafe "pcre.h pcre_compile"
+data PCRE
   c_pcre_compile :: CString -> PCREOption -> Ptr CString -> Ptr CInt -> Ptr Word8 -> IO (Ptr PCRE)
 
 {-
